@@ -1,0 +1,184 @@
+/*common css start*/
+body{
+font-family: sans-serif;
+	background-color: #121b2a;
+}
+/*common css start*/
+/*header start*/
+.wrapper {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 90%;
+	background-color: #121b2a;
+}
+
+.logo {
+	float: left;
+    width: 20%;
+	
+}
+.logo img{
+	width: 100%;
+}
+.menu {
+	float: right;
+	width: 61%;
+}
+.menu ul{
+}
+.menu ul li{
+list-style: none;
+	float: left;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 46px 11px 0 20px;
+	color: white; 
+	display: inline-block;  
+}
+.menu ul li a:hover{
+	color:#0076bc;
+}
+.menu ul li:first-child a{
+          color:#0076BC ;
+}
+.menu ul li:first-child a:hover{
+	color: white;  
+}
+/*header end*/
+ /*banner start */
+ .banner{
+ 	   width: 100%;
+       background: url(../images/banner.jpg);
+       padding:170px 0;
+       background-repeat: no-repeat;
+
+ }
+ .container{
+  overflow: hidden;
+	margin: 0 auto;
+	width: 90%;
+    
+  }
+ .b_h1{
+ 	font-size: 29px;
+ 	color: white;
+ }
+ .b_span{
+ 	color: #0076BC;
+ }
+ .b_p{
+ 	font-size: 16px;
+ 	color: white;
+ }
+ .b_btn{
+    background-color: white;
+    color: grey;
+    border: none;
+    padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+       /*width: 10px;*/
+   }
+	/*banner end*/
+	/*service start*/
+.service{
+	padding: 60px 0;
+	background-color: #121B2C;
+}
+.service-1{
+	padding: 0 2.66%;
+	width: 28%;
+	float: left;
+}
+.s-img{
+	padding: 20px 0;
+}
+.s-text p{
+color: #fff;
+line-height: 25px;
+}
+/*service end*/
+/*about start*/
+.about{
+	padding: 60px 0;
+	background-color: black;
+}
+.wrapper_2 {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+	background-color: black;
+}
+
+.a_img{
+	padding: 0 2.66%;
+	width: 28%;
+	float: left;
+}
+.a_img img{
+	width: 100%;
+}
+
+/*about end*/
+
+
+
+/*footer start*/
+footer{
+	background-color:#121B2C;
+}
+.f-left{
+	margin: 0;
+	width: 60%;
+	float: left;
+	text-transform: capitalize;
+	color: #fff;
+}
+.f-menu{
+	padding: 20px 0;
+	overflow: hidden;
+}
+.f-menu ul{
+
+}
+.f-menu ul li{
+	float: left;
+	list-style: none;
+}
+.f-menu ul li a{
+	padding: 0 18px;
+	display: inline-block;
+	margin: 15px 0;
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #fff;
+	border-right: 1px solid #fff;
+}
+.f-bottom p{
+	padding: 0 20px;
+	word-spacing: 4px;
+}
+.f-right{
+	width: 30%;
+	float: right;
+}
+.img{
+	padding: 30px 0;
+	overflow: hidden;
+	width: 100%;
+}
+.img_1{
+	float: left;
+	width: 48%;
+}
+.img_2 {
+
+	float: right;
+	width: 48%;
+}
+/*footer end
